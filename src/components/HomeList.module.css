@@ -1,0 +1,12 @@
+.container {
+  margin-top: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 100%;
+}
+img {
+  padding: 10px;
+  object-fit: cover;
+  max-width: 350px;
+  border-radius: 50px;
+}

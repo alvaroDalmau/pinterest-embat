@@ -1,0 +1,40 @@
+.searchIcon {
+  border: none;
+  border-radius: 50px 0 0 50px;
+  background-color: rgba(0, 0, 0, 0.06);
+  height: 42px;
+  width: 35px;
+  padding: 0px 4px 0px 12px;
+}
+.searchBar {
+  height: 42px;
+  border: none;
+  border-radius: 0 50px 50px 0;
+  background-color: rgba(0, 0, 0, 0.06);
+}
+.borderYes:current {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+.contender {
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 15px;
+}
+.contender:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+.clicked {
+  display: none;
+}
+.maxSize {
+  border-radius: 50px;
+}
+@media (max-width: 768px) {
+  .contender {
+    margin: 0;
+  }
+}
